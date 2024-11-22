@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Senha - Terra Quinta</title>
+    <link rel="stylesheet" href="css/novaSenha.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logoVentureu.png" alt="Logo Terra Quinta">
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container-reset">
+            <div class="reset-panel">
+                <h1>Redefinição de senha</h1>
+                <p>Insira abaixo a sua nova senha</p>
+                <form id="new-password-form">
+                    <label for="new-password">Nova Senha</label>
+                    <input type="password" id="new-password" placeholder="Sua nova senha" required>
+
+                    <label for="confirm-new-password">Confirmar Senha</label>
+                    <input type="password" id="confirm-new-password" placeholder="Confirme a nova senha" required>
+
+                    <div class="content-btn">
+                        <button type="submit" class="btn">Confirmar Nova Senha</button>
+                    </div>
+                </form>
+
+                <!-- Feedback para o usuário -->
+                <p id="feedback" class="hidden"></p>
+
+                <p class="login-link">
+                    Já tem uma conta? <a href="login.html">Entrar</a>
+                </p>
+                <footer>
+                    
+                </footer>
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="js/novaSenha.js"></script>
+
+</body>
+</html>
